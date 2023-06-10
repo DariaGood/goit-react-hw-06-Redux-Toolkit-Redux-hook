@@ -8,7 +8,6 @@ import Filter from './filter/Filter';
 
 export const App = () => {
   const contacts = useSelector(state => state.contacts);
-  console.log(contacts);
 
   return (
     <Container as="main" px={5}>
